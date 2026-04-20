@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import jet2Logo from "@/assets/jet2holidays-logo.png";
 
 const AFF_LINK = "https://linkthem.net/aff_c?offer_id=2806&aff_id=20617";
 
@@ -40,16 +41,11 @@ const Index = () => {
       <div className="w-full max-w-md bg-card rounded-2xl shadow-card overflow-hidden">
         {/* Banner */}
         <div className="bg-banner py-8 px-6 flex items-center justify-center">
-          <div className="flex items-center gap-2">
-            <svg viewBox="0 0 100 100" className="h-14 w-14 -skew-x-6">
-              <circle cx="50" cy="50" r="48" fill="hsl(var(--primary))" />
-              <circle cx="50" cy="50" r="30" fill="hsl(var(--background))" />
-              <circle cx="50" cy="50" r="14" fill="hsl(var(--primary))" />
-            </svg>
-            <span className="text-[2.75rem] sm:text-[3rem] font-black tracking-tight text-primary italic leading-none">
-              Jet2<span className="font-bold">holidays</span>
-            </span>
-          </div>
+          <img
+            src={jet2Logo}
+            alt="Jet2holidays logo"
+            className="h-16 sm:h-20 w-auto object-contain"
+          />
         </div>
 
         {/* Body */}
