@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 50 100% 97%;
+    --background: 0 0% 100%;
     --foreground: 0 0% 10%;
 
     --card: 0 0% 100%;
@@ -24,7 +24,7 @@
     --cta-end: 14 92% 45%;
 
     /* Soft cream banner to let the logo breathe */
-    --banner: 50 100% 96%;
+    --banner: 45 100% 55%;
 
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 12%;
