@@ -13,18 +13,18 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 10%;
 
-    /* Jet2holidays red */
-    --primary: 351 97% 45%;
+    /* Jet2holidays orange */
+    --primary: 18 95% 53%;
     --primary-foreground: 0 0% 100%;
 
-    /* Jet2holidays yellow accent */
-    --jet2-yellow: 50 100% 50%;
+    /* Jet2holidays yellow accent (sun) */
+    --jet2-yellow: 45 100% 55%;
 
-    /* CTA gradient: red → deeper red */
-    --cta-end: 351 97% 38%;
+    /* CTA gradient: orange → deeper orange */
+    --cta-end: 14 92% 45%;
 
-    /* Yellow header banner (Jet2 brand) */
-    --banner: 50 100% 50%;
+    /* Soft cream banner to let the logo breathe */
+    --banner: 50 100% 96%;
 
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 12%;
@@ -32,7 +32,7 @@
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 50 100% 50%;
+    --accent: 45 100% 55%;
     --accent-foreground: 0 0% 10%;
 
     --destructive: 0 84.2% 60.2%;
@@ -40,7 +40,7 @@
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 351 100% 42%;
+    --ring: 18 95% 53%;
 
     --radius: 0.75rem;
 
