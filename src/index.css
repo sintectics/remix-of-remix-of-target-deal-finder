@@ -23,8 +23,8 @@
     /* CTA gradient: orange → deeper orange */
     --cta-end: 14 92% 45%;
 
-    /* Soft cream banner to let the logo breathe */
-    --banner: 45 100% 55%;
+    /* Light blue banner behind logo */
+    --banner: 200 85% 75%;
 
     --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 12%;
