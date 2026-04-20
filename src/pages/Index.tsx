@@ -40,14 +40,14 @@ const Index = () => {
       <div className="w-full max-w-md bg-card rounded-2xl shadow-card overflow-hidden">
         {/* Banner */}
         <div className="bg-banner py-8 px-6 flex items-center justify-center">
-          <div className="flex items-center gap-3">
-            <svg viewBox="0 0 100 100" className="h-16 w-16">
+          <div className="flex items-center gap-2">
+            <svg viewBox="0 0 100 100" className="h-14 w-14 -skew-x-6">
               <circle cx="50" cy="50" r="48" fill="hsl(var(--primary))" />
-              <circle cx="50" cy="50" r="30" fill="white" />
+              <circle cx="50" cy="50" r="30" fill="hsl(var(--background))" />
               <circle cx="50" cy="50" r="14" fill="hsl(var(--primary))" />
             </svg>
-            <span className="text-[3.3rem] font-black tracking-tight text-primary italic">
-              Jet2holidays
+            <span className="text-[2.75rem] sm:text-[3rem] font-black tracking-tight text-primary italic leading-none">
+              Jet2<span className="font-bold">holidays</span>
             </span>
           </div>
         </div>
