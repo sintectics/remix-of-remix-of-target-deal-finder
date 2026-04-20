@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import jet2Logo from "@/assets/jet2holidays-logo.png";
+import jet2Logo from "@/assets/jet2holidays-logo.webp";
 
 const AFF_LINK = "https://linkthem.net/aff_c?offer_id=2806&aff_id=20617";
 
@@ -44,7 +44,7 @@ const Index = () => {
           <img
             src={jet2Logo}
             alt="Jet2holidays logo"
-            className="h-16 sm:h-20 w-auto object-contain"
+            className="h-20 sm:h-24 w-auto object-contain"
           />
         </div>
 
